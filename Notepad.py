@@ -1,4 +1,4 @@
-#This was inspired by a youtube tutorial 
+#This was inspired by a youtube tutorial, link:https://www.youtube.com/watch?v=pEnRUKhAcOM
 import discord
 import asyncio
 import random
@@ -32,6 +32,7 @@ async def on_message(message):
 async def on_message(message):
     if message.content.startswith("hello"):
         await client.send_message(message.channel, "Hello, hope you are doing well?.")
+#This heads and tails area was inspired by the Rapptz Github, link:https://github.com/Rapptz/discord.py/blob/async/examples/guessing_game.py        
     elif message.content.startswith("!flip"):
         flip = random.choice(["Heads" , "Tails"])
         await client.send_message(message.channel, flip)
@@ -49,7 +50,7 @@ async def on_message(message):
         with open("quote_file.pk1", "rb") as quote_file:
             quote_list = pickle.load(quote_file)
         await client.send_message(message.channel, random.choice(quote_list))
-        
+#The piece of code which deals with files was helped by the youtube tutorial,link:https://www.youtube.com/watch?v=Uh2ebFW8OYM&t=1078s        
 
 client.run("NTA2MTY2OTQ5NDI4OTg1ODU2.Dt7XIg.-6OulBnpCSRzu0CfnfODMX--sqQ")
           
