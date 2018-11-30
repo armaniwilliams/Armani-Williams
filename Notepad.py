@@ -52,5 +52,5 @@ async def on_message(message):
         await client.send_message(message.channel, random.choice(quote_list))
 #The piece of code which deals with files was helped by the youtube tutorial,link:https://www.youtube.com/watch?v=Uh2ebFW8OYM&t=1078s        
 
-client.run("NTA2MTY2OTQ5NDI4OTg1ODU2.Dt7XIg.-6OulBnpCSRzu0CfnfODMX--sqQ")
+client.run("TOKEN")
           
