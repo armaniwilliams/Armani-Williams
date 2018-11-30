@@ -3,7 +3,7 @@ import discord
 import asyncio
 import random
 import pickle
-#The pickle module a data from it's complex state into a form which is easier to access
+#The pickle module changes a data from it's complex state into a form which is easier to access
 import os
 #The os module allows us to interface with the underlying operating system, hence the linux os
 
