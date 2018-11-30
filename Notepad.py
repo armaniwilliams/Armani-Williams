@@ -12,8 +12,8 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("logged in as Armani Williams")
-    print("Stephen Filani's life")
-    print("506166949428985856")
+    print("Stephen's BOT")
+    print("Client ID")
     print("I'm finally alive")
     
 @client.event
