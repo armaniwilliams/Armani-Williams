@@ -22,5 +22,5 @@ Groupwork:
 We could not all agree on a singular project to work on. So we decided it would be best to split off an do our own indviusal projects. However we would still discuss with each oter via Discord and ask for advice and for any critiiscm. We would use planning poker in order to estimate the time needed for work, in order to meet the weekly deadlines for the Active Led Learning module.. 
 
 After the Project:
-The project gave me invaluble experience implementing python into different interfaces and also appplying scrum techniques in order ot be more effective and effecient during my work.
+The project gave me invaluble experience implementing python into different interfaces and also applying scrum techniques in order ot be more effective and effecient during my work.
 
